@@ -1,0 +1,11 @@
+spring:
+  config:
+    activate:
+      on-profile: standalone
+  mongodb:
+    embedded:
+      version: 5.0.6
+  data:
+    mongodb:
+      port: 27017
+
